@@ -1,0 +1,36 @@
+MIT License
+
+Copyright (c) 2025 Jan Heidbrink
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+This license applies to the original code in this repository (Nix packaging
+files and the shell script).  The patches in the patches/ directory are
+derived from third-party projects and carry their own licenses:
+
+  - patches/openvpn-v2.6.19-aws.patch — GPL-2.0-only (derived from OpenVPN)
+  - patches/openssl-aws-revert-self-signed-cert-logic.patch — Apache-2.0
+    (derived from OpenSSL)
+
+See patches/LICENSE-GPL2 and patches/LICENSE-APACHE2 for the full texts.
+
+The shell script is based on work published by Alex Samorukov under MIT license:
+  https://github.com/aws-vpn-client/aws-vpn-client
