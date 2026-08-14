@@ -1,8 +1,8 @@
 This is a Bash script which connects to an AWS client VPN.
 
-It's based on https://github.com/aws-vpn-client/aws-vpn-client from Alex Samorukov - I just packaged this in Nix,
-and used `nc` instead of a proper webserver to read the SAML response.
-For a blogpost see https://smallhacks.wordpress.com/2020/07/08/aws-client-vpn-internals/
+It's based on https://github.com/aws-vpn-client/aws-vpn-client from Alex Samorukov, see
+[blogpost](https://smallhacks.wordpress.com/2020/07/08/aws-client-vpn-internals/).
+I just packaged this in Nix, and used `nc` instead of a proper webserver to read the SAML response.
 
 The patches were downloaded from https://amazon-source-code-downloads.s3.amazonaws.com/aws/clientvpn/openvpn-2.6.12-aws-1.tar.gz
 and adapted to 2.6.19. The patch for 2.6.12 is also stored in this repo for reference.
